@@ -3,12 +3,16 @@
 A quick python script I whipped up to make counting confirmation emails
 from form submissions a lot easier. 
 
-To run:
+Note: If you want to login to Gmail
+using python's imaplib, you must enable "Access for less secure apps" in the
+account settings of your Gmail account.
+
+#### To run:
 ```bash
 python parse.py
 ```
 
-You will be asked to input parameters to start the search.
+#### You will be asked to input parameters to start the search: 
 
 ```bash
 Login email: <login>                             // "swag@gmail.com"
