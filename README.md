@@ -18,12 +18,15 @@ Subject line search: <subject line>              // "UC Berkeley"
 File to write to: <output>                       // "output.txt"
 ```
 
-Results are in <output>.
-
 ### Misc. notes to self:
 
 1. Sort and Count distinct lines:
-  * sort <output> | uniq -c
+  * sort `file` | uniq -c
 
 2. Line count:
-  * wc -l <output>
+  * wc -l `file` 
+
+## To-Do
+
+- Figure out how to put input parameters into a config file so I don't have to manually input every time
+- Maybe give option of whether to take input or to load from config file
